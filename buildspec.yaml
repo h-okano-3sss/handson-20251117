@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     AWS_DEFAULT_REGION: ap-northeast-1    # 東京リージョン
-    ECR_REPOSITORY: ecr/sample                # ECRリポジトリ名
+    ECR_REPOSITORY: ecr/cf_sample                # ECRリポジトリ名
     IMAGE_TAG: latest                      # Dockerイメージタグ
     ECS_CLUSTER: handson-20251118-cluster           # ECSクラスタ名
     ECS_SERVICE: handson-20251118-stack-ECSStack-1QXRHTHUT1AJW-ECSService-qKXqfcN5uyPO          # ECSサービス名
