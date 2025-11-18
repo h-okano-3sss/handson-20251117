@@ -6,7 +6,7 @@ const express = require('express');
 const app = express();
 
 //getでリクエスト時に処理するコールバック関数指定
-// 編集プッシュテスト
+// 編集プッシュテストUseConnection
 app.get("/", function(req, res){
     res.sendFile(__dirname + '/index.html');
 });
